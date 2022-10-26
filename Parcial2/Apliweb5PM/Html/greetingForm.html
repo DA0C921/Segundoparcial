@@ -1,0 +1,28 @@
+<!-- 
+    Descripcion: formulario que captura un nombre
+    Autor: Julio Alejandro Gutierrez Hernandez
+    Fecha: 12 / octubre/ 2022
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Greating</title>
+</head>
+<body>
+    <center><h1>Greeting Formulario</h1></center>
+    <!-- Forma que captura con metodo POST -->
+    <form action="../php/greeting.php" method="post">
+        <section class="form">
+        <input class="controls" type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre">
+        <input class="controls" type="number" name="edad" id="edad" placeholder="Ingresa tu edad">
+        <input class="controls"  type="tel" name="telefono" id="telefono" placeholder="Ingresa tu teléfono">
+        <input class="boton" type="submit" value="Saludar">
+        </section>
+     </form>
+    
+</body>
+</html>

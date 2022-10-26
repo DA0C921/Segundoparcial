@@ -1,5 +1,8 @@
+<!-- 
+    Autor: Julio Alejandro Gutierrez Hernandez
+-->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,11 +11,11 @@
 </head>
 <body>
     <?php
-    echo '<h1>'; 
-    echo date('d/M/Y (H:i)');
+    echo '<h1>';
+    echo 'Hola a todos :)';
     echo '</h1>';
-   ?>
-   <style>
+    ?>
+    <style>
       body{
         background-color: black;
       }
@@ -21,8 +24,6 @@
         font-size: 120PX;
         text-align: center;
       }
-
     </style>
-
 </body>
 </html>
