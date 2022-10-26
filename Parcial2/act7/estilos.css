@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: rgb(28, 105, 228);
+}
+
+
+.contenedor {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5px;
+    width: 80%;
+    text-align: center;
+}
+.logo {
+    background-color: black;
+    border: 1px;
+}
+.logo img {
+    
+    border: 1px;
+    text-align: center;
+    width: 100px;
+    height: 80px;
+}
