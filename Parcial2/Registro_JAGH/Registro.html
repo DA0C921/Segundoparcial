@@ -1,0 +1,42 @@
+<!-- 
+    Descripcion: formulario de registro
+    Autor: Julio Alejandro Gutierrez Hernandez
+    Fecha: 14 / octubre/ 2022
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Registro</title>
+</head>
+<body>
+    
+    <!-- Forma que captura con metodo POST -->
+    <form action="registro.php" method="post">
+        
+        <section class="form">
+        <h1>Registro</h1> 
+        <input class="controls" type="text" name="nombre" id="nombre" placeholder="Nombre">
+        <input class="controls" type="text" name="apellido" id="apellido" placeholder="Apellido">
+        <input class="controls" type="email" name="email" id="correo" placeholder="Correo electronico">
+        <input class="controls" type="password" name="password" id="contraseña" placeholder="Contraseña">
+        <h4>Fecha de nacimiento</h4>
+        <input class="controls" type="date" name="date" id="fnacimiento">
+        <h4>Sexo</h4>
+        <select name="sexo" id="sexo">
+        <option class="controls" value="Hombre">Hombre</option>
+        <option class="controls" value="Mujer">Mujer</option>
+        <option class="controls" value="neutro">Prefiero no decirlo</option>
+        </select>
+        <input class="boton" type="submit" value="Registrarte">
+        </section>
+     </form>
+    
+</body>
+</html>
+    
+</body>
+</html>
