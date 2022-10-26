@@ -1,3 +1,6 @@
+<!-- 
+ Autor:Julio Alejandro Gutierrez Hernandez
+-->
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -8,9 +11,9 @@
 </head>
 <body>
     <h1 id="Samu">Soy una simple página!!! =( =( =(</h1>
-    <button id="btnrojo" style="background-color: red ;" onmouseover="Rojo()">Red</button>
-    <button id="btnazul" style="background-color: blue ;" onmouseover="Azul()">Blue</button>
-    <button id="btnverde" style="background-color: green ;" onmouseover="Verde()">Green</button>
+    <button id="btnrojo" style="background-color: red ;" onmouseover="Rojo()">Red</button> <!-- Creeamos un boton y le damos un color en este caso rojo   -->
+    <button id="btnazul" style="background-color: blue ;" onmouseover="Azul()">Blue</button><!-- Creeamos un boton y le damos un color en este caso azul   -->
+    <button id="btnverde" style="background-color: green ;" onmouseover="Verde()">Green</button><!-- Creeamos un boton y le damos un color en este caso verde   -->
     
     <script>
         function Rojo(){
